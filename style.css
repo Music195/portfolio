@@ -15,12 +15,13 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 20px 10%;
+    padding: 15px 10%;
     background: #0e3956;
     display: flex;
     justify-content: space-between;
     align-items: center;
     z-index: 100;
+
 }
 .logo {
     position: relative;
@@ -146,6 +147,7 @@ body {
     0 0 100px cyan, 0 0 200px cyan;
 }
 .about{
+    padding-top: 68.8px;
     display:grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5rem;
